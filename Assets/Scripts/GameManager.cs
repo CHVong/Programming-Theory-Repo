@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
     private void OnDisable() => uiClickAction.Disable();
     void Start()
     {
+        //ABSTRACTION
         SpawnRandomObject();
     }
 
